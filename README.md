@@ -18,6 +18,8 @@ Substitute of GitHub:
 3. Azure Devops
 4. Aws cloud formation
 
+Git is a technology and GitHub is a platform which uses Git's technology.  
+
 If we put anything in git it will have following features.
 1. Version (v1, v2)
 2. Time
@@ -29,4 +31,36 @@ Practical:
 mkdir git-project
 cd git-project/
 mkdir project{1..3}
+
+Note: To create a repository run 'git init' inside a folder where we want to make a repository. There a hidden file is created called '.git'.
+
+Tip: Once we transform a folder into repository do not create another repository into a repository.
+
+/root/git-project/project1  >> git init
+
+**Git Stages**
+
+1. Working Directory
+2. Staging Area
+3. Git repo
+
+1. Any files which are placed in '**Working directory**' are **untracked**
+
+ ![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/2217d92b-2dce-4c56-953b-6558231b2511)
+
+2. Any file which is add by command 'git add filename' moved into staging area.
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/ef8664a1-dc6b-433e-9f59-245b13b5ccdc)
+
+git reset >> Again move file from staging to working directory.
+
+3. git commit -m "payment code commit 1" > This command move file from staging area to git repo.
+
+* Suppose this file is deleted from our local system which is project1, we can recover the file by using 'git restore filename'
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/c7bacefa-53a2-489b-81d2-e06a1c61e466)
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/de9da6a5-e423-4d07-9aaa-62183b70605f)
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/f5d862f9-62cd-4d47-9411-e6ca98069789)
 
