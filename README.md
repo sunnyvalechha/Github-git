@@ -64,3 +64,18 @@ git reset >> Again move file from staging to working directory.
 
 ![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/f5d862f9-62cd-4d47-9411-e6ca98069789)
 
+
+# Set Global Username and email
+
+git config --global user.name sunny
+
+git config --global user.email sunny@gmail.com
+
+git config --list
+
+* Any user is doing nasty things to the code, it can be tracked easily by using **global** settings and using command **'git log'**
+
+git log
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/6726e8f8-7777-4ad2-8b34-86089d6f6ab8)
+
