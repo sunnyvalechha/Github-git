@@ -79,3 +79,14 @@ git log
 
 ![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/6726e8f8-7777-4ad2-8b34-86089d6f6ab8)
 
+
+# Clone GitHub repository with Git
+
+git clone command is clone the already created repository with CLI.
+
+Go to Github > Go to repository which want to clone with CLI > Go to Code option > HTTPS > Copy URL > Example: https://github.com/sunnyvalechha/Azure-Dev.git
+
+Go to CLI > run command 'git clone <URL>' 
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/7ab63f75-c65c-434f-87db-6581fe683ea1)
+
