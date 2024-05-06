@@ -50,7 +50,18 @@ Tip: Once we transform a folder into repository do not create another repository
 
 1. Any files which are placed in '**Working directory**' are **untracked**
 
+git status
+
  ![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/2217d92b-2dce-4c56-953b-6558231b2511)
+
+ git status -s >> See files which are not tracked
+
+ A > added
+ D > Deleted
+ AM > Added & Modified
+ ?  > Not added
+
+git status -v  >> See modifications of file
 
 2. Any file which is add by command 'git add filename' moved into staging area.
 
