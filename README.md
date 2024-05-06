@@ -111,5 +111,34 @@ Go to CLI > run command 'git clone <URL>'
 
 git remote -v  > Check, if this repository is connected with any GitHub or GitLab or Bitbucket Repository
 
-To add remote connection with repository
+In Git, "origin" is a repository in which we want to send data using push command.
+
+To add remote connection with repository:
+
+git remote add origin <url of repository>
+
+git remote add origin https://github.com/sunnyvalechha/Azure-Dev.git
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/8b47f3e6-4eea-4269-ad90-d1cdc97728f8)
+
+git status > Branch **master**
+
+git push origin master > We have to create a branch master
+
+Note: To run the above command, we must add and commit a file, means nothing should present on working directory, everything must be commited.
+
+It will ask for password > Go to developer settings > Get you token > run command 
+
+origin url is developer token url
+
+another url is remote -v command url
+
+git remote set-url origin https://abcxyz-your-dev-token@github.com/sunnyvalechha/Azure-Dev.git
+
+git push origin master
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/dad3b61a-b0fe-4fa3-9f23-32bd82f5aadc)
+
+
+
 
