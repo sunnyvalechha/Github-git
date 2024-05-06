@@ -1,4 +1,6 @@
-Git: Git is a version control system that is used to track changes in source code. Version controled can be done for anything like file, images, folder.
+* Git is Free
+* Git is opensource
+* Git is Fast & Small as most Git is a version control system that is used to track changes in source code. Version controled can be done for anything like file, images, folder.
 
 Repository in Git: The repositories of Github act as essential places for storing the files with maintaining the versions of development. By using GitHub repositories developers can organize, monitor, and save their changes of code to their projects in remote environments. 
 
@@ -28,6 +30,8 @@ If we put anything in git it will have following features.
 
 Practical:
 
+git --version
+
 mkdir git-project
 cd git-project/
 mkdir project{1..3}
@@ -36,7 +40,7 @@ Note: To create a repository run 'git init' inside a folder where we want to mak
 
 Tip: Once we transform a folder into repository do not create another repository into a repository.
 
-/root/git-project/project1  >> git init
+/root/git-project/project1  >> git init  / git init repo-name 
 
 **Git Stages**
 
@@ -53,6 +57,8 @@ Tip: Once we transform a folder into repository do not create another repository
 ![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/ef8664a1-dc6b-433e-9f59-245b13b5ccdc)
 
 git reset >> Again move file from staging to working directory.
+
+Note: If the directory is empty it will not go in Staging area
 
 3. git commit -m "payment code commit 1" > This command move file from staging area to git repo.
 
@@ -72,6 +78,8 @@ git config --global user.name sunny
 git config --global user.email sunny@gmail.com
 
 git config --list
+
+git config --global core.editor '/usr/bin/vim'   > Set the default editor
 
 * Any user is doing nasty things to the code, it can be tracked easily by using **global** settings and using command **'git log'**
 
