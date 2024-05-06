@@ -1,6 +1,7 @@
 * Git is Free
 * Git is opensource
-* Git is Fast & Small as most Git is a version control system that is used to track changes in source code. Version controled can be done for anything like file, images, folder.
+* Git is Fast & Small as most of the operations are performed locally.
+* Git is a version control system that is used to track changes in source code. Version controled can be done for anything like file, images, folder.
 
 Repository in Git: The repositories of Github act as essential places for storing the files with maintaining the versions of development. By using GitHub repositories developers can organize, monitor, and save their changes of code to their projects in remote environments. 
 
@@ -98,7 +99,6 @@ git log
 
 ![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/6726e8f8-7777-4ad2-8b34-86089d6f6ab8)
 
-
 # Clone GitHub repository with Git
 
 git clone command is clone the already created repository with CLI.
@@ -108,4 +108,8 @@ Go to Github > Go to repository which want to clone with CLI > Go to Code option
 Go to CLI > run command 'git clone <URL>' 
 
 ![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/7ab63f75-c65c-434f-87db-6581fe683ea1)
+
+git remote -v  > Check, if this repository is connected with any GitHub or GitLab or Bitbucket Repository
+
+To add remote connection with repository
 
