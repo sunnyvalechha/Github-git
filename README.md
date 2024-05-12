@@ -139,6 +139,22 @@ git push origin master
 
 ![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/dad3b61a-b0fe-4fa3-9f23-32bd82f5aadc)
 
+# Git Fork
+
+Forking a repository means creating a copy of the repo. When you fork a repo, you create your own copy of the repo. When several developers want to work on a project but need to make changes that are inappropriate for the original repository.
+
+Note: Fork and Clone both have different features, clone will sync the local and remote only once and not update the content if there is any new changes in main, fork just create a copy of remote repo to your local and can be updated via 'sync fork', and the .git file also different in local and remote when done fork.
+
+Sync Fork: Any changes in the main repository will updated in the fork repository.
+
+# Git Branch
+
+Branches allow you to work on different parts of a project without impacting the main branch.
+
+When the work is complete, a branch can be merged with the main project.
+
+You can even switch between branches and work on different projects without them interfering with each other.
+
 
 
 
