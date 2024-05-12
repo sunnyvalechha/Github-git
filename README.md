@@ -173,9 +173,9 @@ Note: If my branch is not main/master of any other branch so my origin of push w
 
 * To see this > Go to repository > Go to Branches [1] > 
 
-[1] ![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/5da877b0-0e68-444e-be3d-528841297d40)
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/5da877b0-0e68-444e-be3d-528841297d40)
 
-[2] ![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/2f369765-9468-4868-9e16-041d6bace679)
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/2f369765-9468-4868-9e16-041d6bace679)
 
 **Create new Branch**
 
@@ -183,6 +183,17 @@ Note: If my branch is not main/master of any other branch so my origin of push w
 
 Note: Every time we create a new branch all the content of the old branch will copied to the new branch, but it will copy the content for the 1 time only. If any content will be added in the old branch will not updated in the new branch.
 
+# Git Merge
 
+When you are sure that your code is ready to merge use.
+
+git merge branch-name
+
+I am at branch 2, I want to merge 2 with 3
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/4fe03998-f561-41e8-8939-83367cc2a0d5)
+
+
+git merge sunny-br-2  > If asking any comments to add in file, put statement why we are doing this.
 
 
