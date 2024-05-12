@@ -189,7 +189,7 @@ When you are sure that your code is ready to merge use.
 
 git merge branch-name
 
-I am at branch 2, I want to merge 2 with 3
+I am at branch 3, I want to merge 2 with 3
 
 ![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/4fe03998-f561-41e8-8939-83367cc2a0d5)
 
