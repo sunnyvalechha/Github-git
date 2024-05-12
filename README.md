@@ -29,6 +29,10 @@ If we put anything in git it will have following features.
 3. Author
 4. Hash Id
 
+Some terms we used in a company:
+
+Hotfix: A hotfix in Git is a type of branch that is used to quickly fix a critical bug in production. Hotfixes are typically created from the master branch and are merged back into master and develop once the fix is complete.
+
 Practical:
 
 git --version
@@ -195,5 +199,29 @@ I am at branch 3, I want to merge 2 with 3
 
 
 git merge sunny-br-2  > If asking any comments to add in file, put statement why we are doing this.
+
+
+# Inter ques - What are the branching strategy you follow in your Co.?
+
+Branch:
+1. Dev
+2. Master
+3. Staging
+
+Dev: Developers use this branch, and every developer have their own branch like below, and all the tickets and features will merge in Dev.
+     feat/color of UI
+     feat/payment
+     ticket/jira123
+     
+Master / Staging: Generally master and staging will be in sync. Staging also called as Production.
+
+We merge our code from Dev branch to Master branch and Master to Staging.
+
+Final: Based on my previous project we use 3 main branches Dev, Master and Staging, where Master was the main base branch, Dev was a branch where development use to happen and inside the development branch we used to create branches based on feature request.
+
+Suppose we are using instagram to the feature we are using is the staging/production version and any changes will come in future is held in dev branch.
+
+
+
 
 
