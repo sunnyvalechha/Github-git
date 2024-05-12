@@ -82,6 +82,12 @@ Note: If the directory is empty it will not go in Staging area
 
 ![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/f5d862f9-62cd-4d47-9411-e6ca98069789)
 
+* **Add and commit specific file**
+
+git add file1.txt
+
+git commit file1.txt -m '1st comit of file1'
+
 
 # Set Global Username and email
 
@@ -154,6 +160,28 @@ Branches allow you to work on different parts of a project without impacting the
 When the work is complete, a branch can be merged with the main project.
 
 You can even switch between branches and work on different projects without them interfering with each other.
+
+Practical:
+
+git branch > check how many branches
+
+git checkout -b sunny-br-1  > created branch named 'sunny-br-1'
+
+Note: If my branch is not main/master of any other branch so my origin of push will be that branch. Ex, below 
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/cdcb16f5-9800-422c-9c4f-521325f7609f)
+
+* To see this > Go to repository > Go to Branches [1] > 
+
+[1] ![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/5da877b0-0e68-444e-be3d-528841297d40)
+
+[2] ![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/2f369765-9468-4868-9e16-041d6bace679)
+
+**Create new Branch**
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/f1c5ba1c-eb08-49c3-9dac-ea6df53cb6da)
+
+Note: Every time we create a new branch all the content of the old branch will copied to the new branch, but it will copy the content for the 1 time only. If any content will be added in the old branch will not updated in the new branch.
 
 
 
