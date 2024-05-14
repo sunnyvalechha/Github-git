@@ -195,6 +195,24 @@ git log --oneline
 
 **Head** - Latest or Last commit is the Head
 
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/b5ad08ce-8583-4530-8a47-5fae6d14394d)
+
+If created another branch and create another commit, then
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/47b16e00-c53a-4a62-a970-d7f9aa52adad)
+
+Developer 2 has made some changes in feat-3 and commited
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/ea3119a0-e5ee-4f5b-82fb-4e3f3a0ab398)
+
+Suppose, we want to revert the above commit that is '3.1'
+
+git revert <commit id> # It will create another commit that will pointed to this reverted commit
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/1a801769-3ac5-4c93-9c8b-151fd572411b)
+
+
+
 **Branching strategy**: 
 
 Master (Protected Branch) No one can commit into this branch, this is where production code is kept.
