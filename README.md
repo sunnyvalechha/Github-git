@@ -211,7 +211,15 @@ git revert <commit id> # It will create another commit that will pointed to this
 
 ![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/1a801769-3ac5-4c93-9c8b-151fd572411b)
 
+* We can reset the recent commits.
 
+I want to reset the feature 3 in snap
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/961d3c42-9a61-42a4-a052-1819442032ca)
+
+git reset 7946169
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/b4f2d4bd-23f6-4819-bb95-823ff59a3d55)
 
 **Branching strategy**: 
 
@@ -255,6 +263,32 @@ We merge our code from Dev branch to Master branch and Master to Staging.
 Final: Based on my previous project we use 3 main branches Dev, Master and Staging, where Master was the main base branch, Dev was a branch where development use to happen and inside the development branch we used to create branches based on feature request.
 
 Suppose we are using instagram to the feature we are using is the staging/production version and any changes will come in future is held in dev branch.
+
+
+# Cherry Pick
+
+Choosing a commit from one branch and applying it to another branch.
+
+When to use cherry-pick?
+Suppose a developer fails to recognize which branch he is currently on, and by mistake, he commits to another branch instead of committing to the main branch. Now to fix it, he has to first run git show, then save the commit, check out the main branch, apply a patch there, and commit with the same commit message. But all this can be done automatically by using just one command i.e. cherry-pick.
+
+Practical:
+
+Added feature in feat-2
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/64516772-1107-4997-8fde-0b14b5e707fd)
+
+
+Then change branch again to Master, note that we have our commit id from old commit (4e044d2)
+
+* Run from master branch
+
+      git cherry-pick 4e044d2
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/9c8e9fa3-e362-4c10-b545-23c8c6db87aa)
+
+
+
 
 
 # Git Merge
