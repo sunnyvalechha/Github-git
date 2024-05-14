@@ -318,7 +318,7 @@ Run: git remote add origin https://github.com/sunnyvalechha/Azure-Dev.git
 
 ![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/2f0e768a-4177-4e5c-80cb-57e6668bf2e3)
 
-If all fine, then run 'git push origin master' with the help of access token
+If all fine, then run 'git push origin master' with the help of Personal access token
 
 
 
