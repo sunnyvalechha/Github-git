@@ -187,19 +187,36 @@ Note: If my branch is not main/master of any other branch so my origin of push w
 
 Note: Every time we create a new branch all the content of the old branch will copied to the new branch, but it will copy the content for the 1 time only. If any content will be added in the old branch will not updated in the new branch.
 
-# Git Merge
+Get all commit list or get hash Id
 
-When you are sure that your code is ready to merge use.
+git log 
 
-git merge branch-name
+git log --oneline
 
-I am at branch 3, I want to merge 2 with 3
+**Head** - Latest or Last commit is the Head
 
-![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/4fe03998-f561-41e8-8939-83367cc2a0d5)
+**Branching strategy**: 
 
+Master (Protected Branch) No one can commit into this branch, this is where production code is kept.
+Dev: Where all the developers will create their own branch names feat/b1, feat/b2
 
-git merge sunny-br-2  > If asking any comments to add in file, put statement why we are doing this.
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/87526906-b21d-4318-874d-cc30b8ac02f7)
 
+Option 2
+
+Master (Protected Branch) nothing will be commit to master unless it test on staging and both environment code will be same.
+
+Before staging a new branch will added called quality assurance (QA).
+
+After QA a Dev branch will created where all the code have been commited.
+
+So the flow will run like:
+
+Dev (feat1, feat2) ---> QA (clone of Staging, run a code here in smaller env) ---> Staging Branch (clone of Master, test code at big env)  ---> Master (If everything runs good, code move here).
+
+Note: If any issue reported into master a new branch will created called HOTFIX and once the bug is fixed again code pushed into master. Will not wait here to create multiple branches.
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/03d6df30-999e-4831-95e2-658fe99841f4)
 
 # Inter ques - What are the branching strategy you follow in your Co.?
 
@@ -220,6 +237,23 @@ We merge our code from Dev branch to Master branch and Master to Staging.
 Final: Based on my previous project we use 3 main branches Dev, Master and Staging, where Master was the main base branch, Dev was a branch where development use to happen and inside the development branch we used to create branches based on feature request.
 
 Suppose we are using instagram to the feature we are using is the staging/production version and any changes will come in future is held in dev branch.
+
+
+# Git Merge
+
+When you are sure that your code is ready to merge use.
+
+git merge branch-name
+
+I am at branch 3, I want to merge 2 with 3
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/4fe03998-f561-41e8-8939-83367cc2a0d5)
+
+
+git merge sunny-br-2  > If asking any comments to add in file, put statement why we are doing this.
+
+
+
 
 
 
