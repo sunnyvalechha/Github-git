@@ -303,7 +303,21 @@ git merge sunny-br-2  > If asking any comments to add in file, put statement why
 
 After pushing a commit to github, from the UI it gave option if we want to merge. Preferred method is from UI
 
-![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/1a9d8309-37e2-42d3-89a1-ecc4a61cd62d)
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/cedbee13-7049-40e9-9aa5-c224786c4149)
+
+Once done 'Create Pull request' we got the option merge request
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/e63ca1d0-14a1-41ff-9970-c9d02dfc5127)
+
+Note: After merging the Dev branch we should merge Dev to Master as per rule but Master have Branch protection set so we cannot merge without the validation.
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/21799205-d233-408e-9b23-400325921425)
+
+If want an approval, get it from collaborators
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/a7d43b2a-d8c6-4b81-a527-4290c836da29)
+
+
 
 # Git Rebase
 
