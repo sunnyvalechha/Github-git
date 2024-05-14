@@ -287,10 +287,6 @@ Then change branch again to Master, note that we have our commit id from old com
 
 ![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/9c8e9fa3-e362-4c10-b545-23c8c6db87aa)
 
-
-
-
-
 # Git Merge
 
 When you are sure that your code is ready to merge use.
@@ -304,9 +300,25 @@ I am at branch 3, I want to merge 2 with 3
 
 git merge sunny-br-2  > If asking any comments to add in file, put statement why we are doing this.
 
+# Git Rebase
 
+Git rebase can integrate the changes from one branch to another by overcoming the problems that we might have faced while using the git merge command. The changes we will do will be recorded in the form of logs which are useful to go through if any mistakes happen.
 
+Rebase and merge used for same purpose.
 
+I am at master branch and have 2 commits 
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/1be63896-07c6-4f66-b2c5-ff049258b99d)
+
+I want to merge the HISTORY of both branches, Switch to branch Dev
+
+Run: git remote add origin https://github.com/sunnyvalechha/Azure-Dev.git
+
+    git pull origin main --rebase
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/2f0e768a-4177-4e5c-80cb-57e6668bf2e3)
+
+If all fine, then run 'git push origin master' with the help of access token
 
 
 
