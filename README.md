@@ -297,8 +297,13 @@ I am at branch 3, I want to merge 2 with 3
 
 ![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/4fe03998-f561-41e8-8939-83367cc2a0d5)
 
-
 git merge sunny-br-2  > If asking any comments to add in file, put statement why we are doing this.
+
+**Merge from UI**
+
+After pushing a commit to github, from the UI it gave option if we want to merge. Preferred method is from UI
+
+![image](https://github.com/sunnyvalechha/Github-git/assets/59471885/1a9d8309-37e2-42d3-89a1-ecc4a61cd62d)
 
 # Git Rebase
 
