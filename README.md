@@ -53,7 +53,7 @@ Tip: Once we transform a folder into repository do not create another repository
 2. Staging Area
 3. Git repo
 
-1. Any files which are placed in '**Working directory**' are **untracked**
+* Any files which are placed in '**Working directory**' are **untracked**
 
 git status
 
