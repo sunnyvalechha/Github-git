@@ -62,8 +62,11 @@ git status
  git status -s >> See files which are not tracked
 
  A > added
+ 
  D > Deleted
+ 
  AM > Added & Modified
+ 
  ?  > Not added
 
 git status -v  >> See modifications of file
