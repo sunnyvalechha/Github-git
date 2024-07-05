@@ -342,6 +342,35 @@ Run: git remote add origin https://github.com/sunnyvalechha/Azure-Dev.git
 
 If all fine, then run 'git push origin master' with the help of Personal access token
 
+The git stash command in Git is a powerful tool that allows you to temporarily save changes in your working directory that are not yet ready to be committed. This is useful when you need to switch branches, pull in upstream changes, or simply set aside work in progress.
+
+**Basic Usage:**
+
+git stash:
+This command takes all the modified tracked files in your working directory (both staged and unstaged) and saves them as a stash. Your working directory is then reverted back to the state of the last commit.
+
+git stash list:
+This command lists all the stashes you have created, each with a unique identifier.
+
+git stash pop:
+This command applies the most recently created stash to your working directory and removes it from the stash list.
+
+git stash apply <stash_id>:
+This command applies a specific stash to your working directory without removing it from the stash list. You can find the stash_id using git stash list.
+
+git stash drop <stash_id>:
+This command deletes a specific stash from the stash list.
+Important Things to Remember:
+Local Only:
+Stashes are stored locally and are not pushed to the remote repository when you push your commits.
+Multiple Stashes:
+You can create multiple stashes, which can be helpful for managing different sets of changes.
+Untracked Files:
+By default, git stash only saves tracked files. To save untracked files as well, use git stash -u or git stash --include-untracked.
+Conflicts:
+When applying a stash, you might encounter conflicts if there are changes in the same areas of the codebase. You'll need to resolve these conflicts just like you would with merge conflicts.
+
+
 
 
 
