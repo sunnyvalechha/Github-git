@@ -342,6 +342,8 @@ Run: git remote add origin https://github.com/sunnyvalechha/Azure-Dev.git
 
 If all fine, then run 'git push origin master' with the help of Personal access token
 
+# Git Stash
+
 The git stash command in Git is a powerful tool that allows you to temporarily save changes in your working directory that are not yet ready to be committed. This is useful when you need to switch branches, pull in upstream changes, or simply set aside work in progress.
 
 **Basic Usage:**
