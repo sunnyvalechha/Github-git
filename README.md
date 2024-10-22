@@ -106,6 +106,8 @@ git config --list
 
 git config --global core.editor '/usr/bin/vim'   > Set the default editor
 
+git config --global http.sslverify false         # Disable SSL verify
+
 * Any user is doing nasty things to the code, it can be tracked easily by using **global** settings and using command **'git log'**
 
 git log
