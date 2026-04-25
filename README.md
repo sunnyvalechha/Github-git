@@ -1,28 +1,28 @@
 Curriculam:
 
 1. Introduction to Git
-2. Installation
-3. Git Basics
-4. Git Commit
-5. Branching Strategy
-6. Merging
-7. Diffing
-8. Stashing
-9. Undo Changes
-10. GitHub Introduction
+2. Introduction to GitHub 
+3. Installation
+4. Git Basics
+5. Git Commit
+6. Branching Strategy
+7. Merging
+8. Diffing
+9. Stashing
+10. Undo Changes
 11. Fetching & Pulling
 12. Collaborativ workflows
 13. Rebasing
 14. Git Tags
 15. Git Behind the Scenes
 
+Introduction to Git:
+* Git is Free, opensource, fast & small as most of the operations are performed locally.
+* Git is a version control system (VCS), actually world's famous VCS that is used to track changes in our code.
+* Version control for anything like file, images, folder.
+* Git does'nt need internet to work locally or does'nt need any account with git.
 
-* Git is Free
-* Git is opensource
-* Git is Fast & Small as most of the operations are performed locally.
-* Git is a version control system that is used to track changes in source code. Version controled can be done for anything like file, images, folder.
-
-Repository in Git: The repositories of Github act as essential places for storing the files with maintaining the versions of development. By using GitHub repositories developers can organize, monitor, and save their changes of code to their projects in remote environments. 
+Repository in Git: The repositories of Github act as essential places for storing the files with maintaining the versions of code. By using GitHub repositories developers can  organize, monitor, and save their changes of code in remote environments. 
 
 Version control is of two types:
 1. Centralized version control (CVCS)
